@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Requirements</title>
+    <link rel="stylesheet" href="css/lh-style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="mask-custom">
+            <div class="header-title">
+                <h2> 
+                    System Requirements
+                </h2>
+                <!-- <div class="see-more" style="align-items: center;"> -->
+                <!-- <center><a class="see-more" href="#" style="font-size: 25px;">See More</a></center> -->
+                <!-- <a class="see-more" href="#member-wrapper" style="font-size: 25px; float: right;">See More</a> -->
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+    <div id="navigation">
+        <a href="#" class="title-page">KELOMPOK-A3</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="problem-analysis.html">Problem Analysis</a></li>
+            <li><a href="system-requirements.html">System Requirements</a></li>
+            <li><a href="prototype.html">Prototype</a></li>
+        </ul>
+    </div>
+    <div id="content-wrapper">
+        <div class="content">
+            <!-- CONTENT HERE -->
+            <font face="Times New Roman, serif"><font size="5" style="font-size: 20pt"><b>1.
+            Kebutuhan Situs</b></font></font></h1>
+            <h1 style="line-height: 150%"><a name="_gjlq5znfjvj0"></a><font size="4" style="font-size: 16pt"><font face="Times New Roman, serif"><b>Project
+            Description</b></font></font></h1>
+            <p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm; line-height: 150%">
+            <font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Proyek
+            ini berfokus pada perancangan </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>User
+            Interface</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+            website perusahaan Genko Oil dengan permasalahan Order Fulfillment.
+            Order Fulfillment itu sendiri memiliki beberapa tahapan, antara lain:
+            ordering, logistic (Carrier appointment, freight in transit, dan
+            freight delivered), dan payment. Tahapan-tahapan tersebut ditangani
+            oleh 4 departemen utama yaitu : order management department (OD),
+            supply department (SD), carrier department (CD), dan finance
+            department (FD). Dengan adanya proyek ini dapat menyelesaikan
+            permasalahan pada tahapan </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Order
+            Fulfillment</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+            tersebut dan memudahkan setiap pihak yang terkait pada permasalahan
+            </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Order
+            Fulfillment </i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">dengan
+            desain yang dibuat. Tujuan akhir dari proyek ini sendiri adalah
+            membuat tampilan prototype dari hasil desain </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>User
+            Interface</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+            yang telah dibuat.</font></font></p>
+            <h1 style="line-height: 150%"><a name="_o473blc6zbvs"></a><font size="4" style="font-size: 16pt"><font face="Times New Roman, serif"><b>Problem
+            Identification</b></font></font></h1>
+            <p style="margin-bottom: 0cm"><font face="Times New Roman, serif">Karena
+            hasil analisis yang dilakukan sudah memenuhi kebutuhan user, maka
+            problem identification tidak dilakukan.</font></p>
+            <p style="margin-bottom: 0cm"><br/>
+            
+            </p>
+            <h1 style="line-height: 150%"><a name="_9mc46wm9x2o1"></a><font size="4" style="font-size: 16pt"><font face="Times New Roman, serif"><b>Requirement
+            Summary</b></font></font></h1>
+            <p style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>Ordering</b></font></font></p>
+            <p align="justify" style="margin-bottom: 0cm; line-height: 150%"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Customer
+            membuat suatu pesanan, lalu Order Management Department yaitu OD
+            Clerk membuat PO (Purchase Order) dan disetujui oleh Supply
+            Department jika PO sudah lengkap yang dimana PO berisi informasi dari
+            perusahaan klien berupa nama, alamat, dan nomor bisnis. Adapun data
+            informasi dari pesanan yaitu nomor, tanggal, mata uang, syarat
+            pemesanan, item pemesanan, biaya pengiriman, lokasi pengiriman, dan
+            metode pembayaran. PO yang sudah lengkap akan diteruskan kepada
+            Supply Officer untuk disetujui yang dimana PO harus dikonfirmasi
+            dalam 3 hari oleh customer setelah ada perubahan atau tidak dari
+            Supply Officer. PO dapat disetujui dengan beberapa kali perubahan,
+            banyaknya perubahan harus dilampirkan pada PO berupa nomor revisi.
+            Setiap perubahan harus disetujui lagi oleh Supply Officer. Jika PO
+            asli atau yang sudah diubah tersebut ditolak, maka PO akan
+            dibatalkan.</font></font></p>
+            <p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm; line-height: 150%">
+            <br/>
+            
+            </p>
+            <p align="justify" style="margin-bottom: 0cm; line-height: 150%"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>Carrier
+            Appointment</b></font></font></p>
+            <p align="justify" style="margin-bottom: 0cm; line-height: 150%"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Setelah
+            PO dikonfirmasi, Shipment Planner mengalokasikan rencana pengiriman.
+            Jika rencana pengiriman dilakukan terlalu lama/overtime, maka proses
+            akan dihentikan dan pesanan akan dibatalkan. Overtime terjadi apabila
+            PO tidak dipersiapkan lebih dari 5 hari. </font></font>
+            </p>
+            <p align="justify" style="margin-bottom: 0cm; line-height: 150%"><br/>
+            
+            </p>
+            <p align="justify" style="margin-bottom: 0cm; line-height: 150%"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>Payment</b></font></font></p>
+            <p align="justify" style="margin-bottom: 0cm; line-height: 150%"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Supply
+            Admin Officer membuat faktur pengiriman yang berisi biaya pengiriman
+            terkait nomor pesanan, nomor pengiriman, dan perusahaan yang akan
+            ditagih. Lalu PO Manager menentukan jika pengiriman telah dibayar
+            dimuka. Setelah Finance Officer menentukan jumlah debit atau jika
+            tidak Finance Officer mengeluarkan perintah pembayaran pengiriman dan
+            membuat dokumen yang di dalamnya berisi nomor pesanan, biaya
+            pengiriman, nomor rekening bank, dll. Senior Finance Officer harus
+            menyetujui dokumen tersebut. Setelah dokumen selesai, Account Manager
+            bisa memproses pembayaran untuk pengiriman. Untuk pembayaran
+            pengangkutan, Manager PO menentukan apakah dibutuhkan fraktur
+            pembayaran atau tidak, jika dibutuhkan maka fraktur pembayaran dibuat
+            oleh Supply Admin Officer yang berisi nomor pesanan dan perusahaan
+            yang akan ditagih. Jika tidak diperlukan maka pembayaran dapat segera
+            dimulai.</font></font></p>
+            <p align="justify" style="margin-bottom: 0cm; line-height: 150%"><br/>
+            
+            </p>
+            <p align="justify" style="margin-bottom: 0cm; line-height: 150%"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>Freight
+            in Transit</b></font></font></p>
+            <p align="justify" style="margin-bottom: 0cm; line-height: 150%"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Pada
+            proses ini, kurir akan melalui beberapa trackpoint. Kemudian, pada
+            setiap trackpoint yang dikunjungi oleh truk pengiriman, kurir akan
+            memberikan pemberitahuan serta mencatat waktu keberangkatan dan
+            kedatangan dari setiap trackpoint-nya. Setelah melalui semua
+            lintasan, atau dapat dikatakan barang sudah sampai tujuan, carrier
+            admin officers mencatat laporan entri pesanan pada setiap trackpoint
+            yang dikunjungi dengan tujuan laporan tersebut dapat diaudit di masa
+            mendatang. Selama pencatatan entri ini, setiap pertanyaan yang
+            diajukan oleh klien dapat ditangani oleh client liaison. Setelah
+            semua proses selesai, PO Manager dapat membuat sertifikat penerimaan
+            yang menyatakan bahwa barang telah diterima secara fisik. Sertifikat
+            ini berisi nomor pesanan, nomor pengiriman, tanggal pengiriman, dan
+            catatan pengiriman.</font></font></p>
+            <p align="justify" style="margin-bottom: 0cm; line-height: 150%"><br/>
+            
+            </p>
+            <p align="justify" style="margin-bottom: 0cm; line-height: 150%"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>Freight
+            Delivered</b></font></font></p>
+            <p align="justify" style="margin-bottom: 0cm; line-height: 150%"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Setelah
+            pengiriman produk, jika tidak terdapat komunikasi dari klien hingga
+            waktu yang sudah ditentukan dalam Shipment Notice, maka proses
+            pengiriman dan penerimaan produk dianggap berhasil. Sedangkan jika
+            klien melakukan komunikasi berupa pengajuan pengembalian produk
+            dengan alasan seperti kerusakan produk atau kerugian, klien dapat
+            mengajukan pengembalian barang dengan mengirimkan dokumen berisi item
+            barang beserta alasan pengembalian barang tersebut. Client Liaison
+            akan menerima dokumen pengajuan pengembalian produk tersebut dan
+            diberikan kepada Senior Supply Officer untuk disetujuinya. Keputusan
+            pengembalian produk akan dipertimbangkan terlebih dahulu oleh Senior
+            Supply Officer. Jika disetujui, maka proses pengembalian produk akan
+            dilanjutkan sedangkan jika tidak disetujui maka pengiriman produk
+            akan tetap dianggap berhasil. </font></font>
+            </p>
+            <p align="justify" style="margin-bottom: 0cm; line-height: 150%"><br/>
+            
+            </p>
+            <p align="justify" style="margin-bottom: 0cm; line-height: 150%"><font face="Times New Roman, serif"><font size="5" style="font-size: 20pt"><b>2.
+            Kebutuhan Data</b></font></font></p>
+            <p align="justify" style="margin-bottom: 0cm; font-weight: normal; line-height: 150%">
+            <br/>
+            
+            </p>
+            <p align="justify" style="margin-bottom: 0cm; font-weight: normal; line-height: 150%">
+            <img src="img/system-requirements/Bagian%202_html_703ecae0d4c6024e.jpg" name="Image1" align="left" width="602" height="439" border="0"/>
+            <br/>
+            
+            </p>
+            <p align="justify" style="margin-bottom: 0cm; line-height: 150%"><font face="Times New Roman, serif"><font size="5" style="font-size: 20pt"><b>3.
+            Kebutuhan Proses</b></font></font></p>
+            <p align="justify" style="margin-bottom: 0cm; line-height: 150%"><br/>
+            
+            </p>
+            <p style="margin-bottom: 0cm; page-break-before: always"><br/>
+            
+            </p>
+            <p align="center" style="margin-bottom: 0cm"><img src="img/system-requirements/Bagian%202_html_a6d1bd4aa1211792.png" name="Picture 2" align="bottom" width="488" height="557" border="0"/>
+            </p>
+            <p align="center" style="margin-bottom: 0cm"><br/>
+            
+            </p>
+            <p align="center" style="margin-bottom: 0cm"><br/>
+            
+            </p>
+            <p align="center" style="margin-bottom: 0cm"><br/>
+            
+            </p>
+            <p align="center" style="margin-bottom: 0cm"><br/>
+            
+            </p>
+            <p align="center" style="margin-bottom: 0cm"><br/>
+            
+            </p>
+            <p align="center" style="margin-bottom: 0cm"><br/>
+            
+            </p>
+            <p align="center" style="margin-bottom: 0cm"><br/>
+            
+            </p>
+            <p align="center" style="margin-bottom: 0cm"><br/>
+            
+            </p>
+            <p align="center" style="margin-bottom: 0cm"><br/>
+            
+            </p>
+            <p align="center" style="margin-bottom: 0cm"><br/>
+            
+            </p>
+            <p align="center" style="margin-bottom: 0cm; line-height: 150%"><img src="img/system-requirements/Bagian%202_html_a6d1bd4aa1211792.png" name="Picture 3" align="bottom" width="457" height="776" border="0"/>
+            </p>
+            <p align="center" style="margin-bottom: 0cm; line-height: 150%"><br/>
+            
+            </p>
+            <p align="justify" style="margin-bottom: 0cm; line-height: 150%"><font face="Times New Roman, serif"><font size="5" style="font-size: 20pt"><b>4.
+            Merancang Tampilan</b></font></font></p>
+            <p align="justify" style="margin-bottom: 0cm; line-height: 150%"><br/>
+            
+            </p>
+            <p align="left" style="margin-bottom: 0cm; page-break-before: always">
+            <font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Halaman
+            berurutan sesuai skenario.</span></font></font></p>
+            <ol>
+                <li><p align="left" style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Home</font></font></p>
+            </ol>
+            <p align="left" style="margin-left: 1.27cm; margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">H<img src="img/system-requirements/Bagian%202_html_73e3b9cf8f152f3c.png" name="Image2" align="left" width="641" height="481" border="0"/>
+            alaman
+            home ini tampil ketika pengguna membuka website pertama kali.
+            Terdapat menu navigasi di atas yang akan selalu dilihat di semua
+            halaman website. Lalu ada deskripsi yang menjelaskan website secara
+            singkat ditengah. Di lanjut dengan harga minyak per-galon saat ini,
+            setelah itu terdapat tombol “ORDER NOW!” untuk lanjut untuk
+            memesan minyak.</font></font></p>
+            <p align="left" style="margin-left: 1.27cm; margin-bottom: 0cm"><br/>
+            
+            </p>
+            <ol start="2">
+                <li><p align="left" style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Order
+                Now</font></font></p>
+            </ol>
+            <p align="left" style="margin-left: 1.27cm; margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">H<img src="img/system-requirements/Bagian%202_html_dbe4f10df5ce41c7.png" name="Image3" align="left" width="641" height="481" border="0"/>
+            alaman
+            ini akan tampil ketika di halaman sebelumnya pengguna mengklik tombol
+            order now atau di halaman manapun mengklik tombol order now pada menu
+            navigasi. Terdapat instruksi untuk daftar akun atau login. Lalu ada
+            penjelasan keuntungan membeli minyak pada website ini.</font></font></p>
+            <p align="left" style="margin-left: 1.27cm; margin-bottom: 0cm"><br/>
+            
+            </p>
+            <ol>
+                <ol type="a">
+                    <li><p align="left" style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Order
+                    Now Logged In</font></font></p>
+                </ol>
+            </ol>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">J<img src="img/system-requirements/Bagian%202_html_492b7d87a7ec8f4a.png" name="Image4" align="left" width="617" height="463" border="0"/>
+            ika
+            sudah login, maka pengguna langsung diinstruksikan untuk memasukan
+            jumlah galon minyak yang akan dibeli. Terdapat catatan penting saat
+            pengguna akan menentukan berapa banyak galon yang akan dibeli.</font></font></p>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><br/>
+            
+            </p>
+            <ol>
+                <ol type="a" start="2">
+                    <li><p align="left" style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Order
+                    Cart</font></font></p>
+                </ol>
+            </ol>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">J<img src="img/system-requirements/Bagian%202_html_4cc41d266e668c6c.png" name="Image5" align="left" width="617" height="463" border="0"/>
+            ika
+            pengguna sudah menentukan akan membeli berapa galon, pada halaman ini
+            akan ditampilkan rincian pembelian galon minyak.</font></font></p>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><br/>
+            
+            </p>
+            <ol>
+                <ol type="a" start="3">
+                    <li><p align="left" style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Order
+                    Checkout</font></font></p>
+                </ol>
+            </ol>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">P<img src="img/system-requirements/Bagian%202_html_52cbe3c3245d5d53.png" name="Image6" align="left" width="617" height="463" border="0"/>
+            ada
+            halaman ini pengguna diharuskan mengisi data diri untuk pengiriman
+            dan pembayaran pembelian minyak.</font></font></p>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><br/>
+            
+            </p>
+            <ol>
+                <ol type="a" start="4">
+                    <li><p align="left" style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Order
+                    Successed</font></font></p>
+                </ol>
+            </ol>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">J<img src="img/system-requirements/Bagian%202_html_1cb45a64020a515b.png" name="Image7" align="left" width="617" height="463" border="0"/>
+            ika
+            data sudah diisi dan memenuhi syarat maka proses pembelian akan
+            segera ditindak lanjuti.</font></font></p>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><br/>
+            
+            </p>
+            <ol start="3">
+                <li><p align="left" style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Login
+                / Register</font></font></p>
+            </ol>
+            <p align="left" style="margin-left: 1.27cm; margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">P<img src="img/system-requirements/Bagian%202_html_f39c3a5a29a276b8.png" name="Image8" align="left" width="641" height="481" border="0"/>
+            ada
+            halaman ini pengguna dapat login jika sudah memiliki akun dan dapat
+            register jika belum memiliki akun.</font></font></p>
+            <p align="left" style="margin-left: 1.27cm; margin-bottom: 0cm"><br/>
+            
+            </p>
+            <ol>
+                <ol type="a">
+                    <li><p align="left" style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Login
+                    Failed</font></font></p>
+                </ol>
+            </ol>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">J<img src="img/system-requirements/Bagian%202_html_3a57844bb7a4dc89.png" name="Image9" align="left" width="617" height="463" border="0"/>
+            ika
+            username atau password salah maka akan muncul norifikasi error dan
+            gagal login.</font></font></p>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><br/>
+            
+            </p>
+            <ol>
+                <ol type="a" start="2">
+                    <li><p align="left" style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Login
+                    -&gt; Lost Password</font></font></p>
+                </ol>
+            </ol>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">J<img src="img/system-requirements/Bagian%202_html_c0e9da12095c6d69.png" name="Image10" align="left" width="617" height="463" border="0"/>
+            ika
+            pengguna lupa password maka pengguna dapat memasuki halaman ini. Pada
+            halaman ini pengguna diinstruksikan untuk mengisi username atau email
+            agar nantinya password baru akan dikirim melalui email pengguna.</font></font></p>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><br/>
+            
+            </p>
+            <ol>
+                <ol type="a" start="3">
+                    <li><p align="left" style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Login
+                    -&gt; Lost Password Failed</font></font></p>
+                </ol>
+            </ol>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">J<img src="img/system-requirements/Bagian%202_html_b31a189bb4ae595a.png" name="Image11" align="left" width="617" height="463" border="0"/>
+            ika
+            username atau email tidak terdaftar di website, maka akan muncul
+            notifikasi error.</font></font></p>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><br/>
+            
+            </p>
+            <ol>
+                <ol type="a" start="4">
+                    <li><p align="left" style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Login
+                    -&gt; Lost Password Success</font></font></p>
+                </ol>
+            </ol>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">J<img src="img/system-requirements/Bagian%202_html_c6eeb9ed02fba998.png" name="Image12" align="left" width="617" height="463" border="0"/>
+            ika
+            pada halaman lupa password pengguna mengisikan username atau email
+            dengan benar maka akan tampil halaman yang memberi tahu bahwa
+            password baru akan dikirim melalui email.</font></font></p>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><br/>
+            
+            </p>
+            <ol>
+                <ol type="a" start="5">
+                    <li><p align="left" style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Register
+                    Failed</font></font></p>
+                </ol>
+            </ol>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">J<img src="img/system-requirements/Bagian%202_html_8359bd745c2810de.png" name="Image13" align="left" width="617" height="463" border="0"/>
+            ika
+            ada data yang tidak memenuhi syarat maka akan muncul notifikasi
+            error.</font></font></p>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><br/>
+            
+            </p>
+            <ol>
+                <ol type="a" start="6">
+                    <li><p align="left" style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Login
+                    Successed -&gt; Dashboard</font></font></p>
+                </ol>
+            </ol>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">J<img src="img/system-requirements/Bagian%202_html_376ccc24c7a74b09.png" name="Image14" align="left" width="617" height="463" border="0"/>
+            ika
+            pengguna berhasil login, pengguna akan diarahkan ke halaman
+            dashboard.</font></font></p>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><br/>
+            
+            </p>
+            <ol>
+                <ol type="a" start="7">
+                    <li><p align="left" style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Registration
+                    Successed -&gt; Account Details</font></font></p>
+                </ol>
+            </ol>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">J<img src="img/system-requirements/Bagian%202_html_afcacd792f68c4b9.png" name="Image15" align="left" width="617" height="463" border="0"/>
+            ika
+            pengguna baru selesai mendaftarkan dirinya maka pengguna akan
+            diarahkan ke halaman ini. Pada halaman ini pengguna dapat mengganti
+            data dirinya.</font></font></p>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><br/>
+            
+            </p>
+            <ol start="4">
+                <li><p align="left" style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Orders
+                (default)</font></font></p>
+            </ol>
+            <p align="left" style="margin-left: 1.27cm; margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">P<img src="img/system-requirements/Bagian%202_html_ece69b2ff700a739.png" name="Image16" align="left" width="641" height="481" border="0"/>
+            ada
+            halaman ini pengguna dapat melihat rincian pembelian minyak.</font></font></p>
+            <p align="left" style="margin-left: 1.27cm; margin-bottom: 0cm"><br/>
+            
+            </p>
+            <ol>
+                <ol type="a">
+                    <li><p align="left" style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Orders</font></font></p>
+                </ol>
+            </ol>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">H<img src="img/system-requirements/Bagian%202_html_3905b95ada15e9ea.png" name="Image17" align="left" width="617" height="463" border="0"/>
+            alaman
+            ini adalah contoh jika ada proses pembelian minyak yang sedang
+            berlangsung.</font></font></p>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><br/>
+            
+            </p>
+            <ol start="5">
+                <li><p align="left" style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Contact
+                Us</font></font></p>
+            </ol>
+            <p align="left" style="margin-left: 1.27cm; margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">J<img src="img/system-requirements/Bagian%202_html_23ad2fadd41955f.png" name="Image18" align="left" width="641" height="477" border="0"/>
+            ika
+            pengguna memiliki pertanyaan, keluhan, atau apapun yang ingin
+            dikomunikasikan dengan admin maka pengguna dapat memasuki halaman ini
+            dan mengisi data diri dan juga pesan yang akan disampaikan.</font></font></p>
+            <p align="left" style="margin-left: 1.27cm; margin-bottom: 0cm"><br/>
+            
+            </p>
+            <ol>
+                <ol type="a">
+                    <li><p align="left" style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Contact
+                    Us -&gt; Send Message</font></font></p>
+                </ol>
+            </ol>
+            <p align="left" style="margin-left: 1.91cm; margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">J<img src="img/system-requirements/Bagian%202_html_e0b81f5bd686b4e6.png" name="Image19" align="left" width="617" height="459" border="0"/>
+            ika
+            pesan berhasil terkirim akan muncul notifikasi berhasil.</font></font></p>
+            <p align="left" style="margin-left: 1.27cm; margin-bottom: 0cm"><br/>
+            
+            </p>
+            <ol start="6">
+                <li><p align="left" style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">About
+                Us</font></font></p>
+            </ol>
+            <p align="left" style="margin-left: 1.27cm; margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">H<img src="img/system-requirements/Bagian%202_html_bf3b210603de8b34.png" name="Image20" align="left" width="641" height="481" border="0"/>
+            alaman
+            ini menjelaskan tentang perushaan dibelakang website ini.</font></font></p>
+            <p align="left" style="margin-left: 1.27cm; margin-bottom: 0cm"><br/>
+            
+            </p>
+            <ol start="7">
+                <li><p align="left" style="margin-bottom: 0cm"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">FAQ</font></font></p>
+            </ol>
+            <p align="left" style="margin-left: 1.27cm; margin-bottom: 0cm; font-weight: normal; line-height: 150%">
+            <font face="Times New Roman, serif"><font size="5" style="font-size: 20pt"><font size="3" style="font-size: 12pt">J<img src="img/system-requirements/Bagian%202_html_2cc3f918b6c60a42.png" name="Image21" align="left" width="641" height="477" border="0"/>
+            ika
+            pengguna memiliki pertanyaan sebaiknya memasuki halaman ini terlebih
+            dahulu, mungkin saja pertanyaan yang ingin pengguna tanyakan sudah
+            ada pada halaman ini.</font></font></font></p>
+        </div>
+    </div>
+    <div id="footer-wrapper">
+        <span class="footer-text">Copyright © KELOMPOK-A3 2021</span>
+    </div>
+</body>
+</html>

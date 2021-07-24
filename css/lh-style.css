@@ -1,0 +1,173 @@
+body {
+    background: #ccc;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+#navigation {
+    position: fixed;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    transition-duration: 0.2s;
+    /* border-bottom: 1px solid #ccc; */
+    /* border: 1px solid rgb(182, 0, 55); */
+}
+
+#navigation ul{
+    float: right;
+}
+
+#navigation li {
+    list-style: none;
+    float: left;
+    padding-right: 25px;
+}
+
+#navigation ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#navigation ul li a:hover {
+    color: rgb(230, 230, 0);
+}
+
+.title-page {
+    float: left;
+    padding: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+.title-page:hover {
+    background-color: rgb(230, 230, 0);
+}
+
+#header {
+    margin: 0 auto;
+    /* margin-top: -10px; */
+    width: 100%;
+    height: 300px;
+    /* background: rgb(77, 64, 64); */
+    background: #fff url("../img/oil-mine.jpg") no-repeat;
+    background-size: cover;
+}
+
+#header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+}
+
+.bg-header {
+    background: #fff url("../img/negotiations.jpeg") no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.mask-custom {
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    position: relative;
+}
+
+.header-title {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-title h2 {
+    color: white;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.see-more {
+    padding: 15px;
+    background: rgb(78, 53, 53);
+    /* align-items: center; */
+    width: auto;
+    color: rgb(230, 230, 0);
+    transition-duration: 0.2s;
+}
+
+.see-more:hover {
+    background: rgb(44, 30, 30);
+}
+
+#content-wrapper {
+    width: 70%;
+    background: white;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.content {
+    font-size: 20px;
+    color: black;
+    width: 100%;
+}
+
+.content h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.content a {
+    color: rgb(34, 34, 255);
+}
+
+.content a:hover {
+    color: rgb(0, 0, 255);
+}
+
+.content img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+#footer-wrapper {
+    /* margin-top: 180px; */
+    width: 100%;
+    height: 70px;
+    background: rgb(43, 42, 40);
+    position: relative;
+}
+
+.footer-text {
+    font-size: 17px;
+    color: rgb(235, 235, 235);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
